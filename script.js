@@ -10,12 +10,6 @@ else{
   alert("Number of player can be only b/w 1-4 plz enter a valid number")
 }
 }
-console.log(number)
-for(var m =1 ; m<=number; m++){
-  document.getElementById("td"+ m).classList.remove("none");
-console.log(m)
-
-}
 
 const canvas=document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
@@ -95,6 +89,13 @@ if(number==4){
   document.getElementById("ladder").classList.remove("none");
   document.getElementById("ladder1").classList.remove("none");
   document.getElementById("ladder4").classList.remove("none");
+  document.getElementById("td1").classList.remove("none");
+  document.getElementById("td2").classList.remove("none");
+  document.getElementById("td3").classList.remove("none");
+  document.getElementById("td4").classList.remove("none");
+  document.getElementById("leaderDiv").classList.remove("none");
+
+
   
 // code
 
@@ -933,6 +934,11 @@ else if(number==3){
   document.getElementById("ladder").classList.remove("none");
   document.getElementById("ladder1").classList.remove("none");
   document.getElementById("ladder4").classList.remove("none");
+  document.getElementById("td1").classList.remove("none");
+  document.getElementById("td2").classList.remove("none");
+  document.getElementById("td3").classList.remove("none");
+  document.getElementById("leaderDiv").classList.remove("none");
+
   
   //code
   
@@ -1569,6 +1575,10 @@ else if(number==2){
   document.getElementById("ladder").classList.remove("none");
   document.getElementById("ladder1").classList.remove("none");
   document.getElementById("ladder4").classList.remove("none");
+  document.getElementById("td1").classList.remove("none");
+  document.getElementById("td2").classList.remove("none");
+  document.getElementById("leaderDiv").classList.remove("none");
+
   
 //code
 
@@ -1983,6 +1993,9 @@ else if(number==1){
   document.getElementById("ladder").classList.remove("none");
   document.getElementById("ladder1").classList.remove("none");
   document.getElementById("ladder4").classList.remove("none");
+  document.getElementById("td1").classList.remove("none");
+  document.getElementById("leaderDiv").classList.remove("none");
+
   
 
 //Player 1
