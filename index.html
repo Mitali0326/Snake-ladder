@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Snake and Ladder's </title>
+</head>
+<body>
+
+  <canvas id="canvas"   class="none"></canvas>
+  <img src="player1.png" id="player1"   class="none">
+  <img src="player2.png" id="player2"  class="none">
+  <img src="player3.png" id="player3"  class="none">
+  <img src="player4.png" id="player4"  class="none">
+
+
+
+
+
+  <div class="player-1"   >
+    <div class="box none" id="box-1">
+      <img src="dice1.png" class="dice" id="dice-1" style="  width:60px;
+      height: 60px;">
+    </div>
+    <button class="btn none" id="roll-1" onclick="roll1()">Roll-1</button>
+  
+  </div>
+
+  <div class="player-2"  >
+    <div class="box none" id="box-2">
+       <img src="dice1.png" class="dice" id="dice-2" style="  width:60px;
+       height: 60px;">
+    </div>
+    <button class="btn none" onclick="roll2()" id="roll-2">Roll-2</button>
+  </div>
+
+  <div class="player-3"   >
+    <div class="box none" id="box-3">
+      <img src="dice1.png" class="dice" id="dice-3" style="  width:60px;
+      height: 60px;">
+    </div>
+    <button class="btn none" onclick="roll3()" id="roll-3">Roll-3</button>
+
+  </div>
+    
+  <div class="player-4"   >
+      <div class="box none" id="box-4" >
+        <img src="dice1.png" class="dice" id="dice-4" style="  width:60px;
+        height: 60px;">
+      </div>
+      <button class="btn none" onclick="roll4()" id="roll-4">Roll-4</button>
+  </div>
+    
+   <!-- <img src="covid-1.png" id="covid-1">
+   <img src="covid-2.png" id="covid-3"> 
+ 
+   <img src="covid-4.png" id="covid-4">
+   <img src="covid-5.png" id="covid-5">
+
+   <img src="covid.png" id="vaccine">
+  <img src="mask.png" id="mask-1">
+  <img src="mask.png" id="mask-2">
+  <img src="mask.png" id="mask-3">
+
+<img src="arrow.png" id="arrow-99">
+<img src="arrow.png" id="arrow-54">
+<img src="arrow.png" id="arrow-37">
+<img src="arrow.png" id="arrow-45">
+<img src="arrow.png" id="arrow-23">
+<img src="arrow.png" id="arrow-88">
+<img src="arrow.png" id="arrow-9">
+<img src="arrow.png" id="arrow-23"> -->
+
+
+
+
+
+
+
+
+
+  <img src="snake1.png" id="snake1"  class="none" >
+  <img src="snake2.png" id="snake2"  class="none">
+  <img src="snake3.png" id="snake3"  class="none">
+  <!-- <img src="snake4.png" id="snake4"> -->
+  <img src="snake5.png" id="snake5"  class="none">
+  
+
+
+
+
+
+   <img src="ladder.png" id="ladder"  class="none">
+  <img src="ladder1.png" id="ladder1"  class="none">
+  <img src="ladder1.png" id="ladder4"  class="none">
+
+  
+
+  
+  <img src="ladder3.png" id="ladder3" class="none"> 
+
+
+
+
+<div class="lboard">
+  
+  <img src="winner.png" >
+<table>
+  <h3>Leader-Board</h3>
+  <tr >
+    <th>Rank</th>
+    <th>Name</th>
+  </tr>
+ <tr class="none" id="td1">
+   <td id="1">1</td>
+   <td id="name1">-</td>
+ </tr>
+ <tr class="none" id="td2">
+  <td id="2">2</td>
+  <td id="name2">-</td>
+</tr>
+<tr class="none" id="td3">
+  <td id="3">3</td>
+  <td id="name3">-</td>
+</tr>
+<tr class="none" id="td4">
+  <td id="4">4</td>
+  <td id="name4">-</td>
+</tr>
+</table>
+
+  
+
+</div>
+ 
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
