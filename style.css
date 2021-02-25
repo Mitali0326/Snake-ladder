@@ -191,116 +191,7 @@ body > div.player-4{
 
     
   }
-  #covid-3{
-    position: absolute;
-    top: 50px;
-    left: 10px;
-    z-index: 5;
 
-    
-  }
-  #covid-4{
-    width: 1005px;
-    box-sizing: border-box;
-    z-index: 5;
-    position: absolute;
-    top: 70px;
-    left: -300px;
-    
-  }
-
-  #covid-5{
-    width: 55px;
-    box-sizing: border-box;
-    z-index: 5;
-    position: absolute;
-    top: 10px;
-    left: 60px;
-    
-  }
-  #mask-1{
-    width: 70px;
-    position: absolute;
-    top:450px;
-    left: 400px;
-    z-index: 5;
-  }
-  #mask-2{
-    width: 70px;
-    position: absolute;
-    top:250px;
-    left: 200px;
-    z-index: 5;
-
-  }
-  #mask-3{
-    width: 70px;
-    position: absolute;
-    top:350px;
-    left: 100px;
-    z-index: 5;
-
-  }
-  #arrow-99{
-    position: absolute;
-    top: 22px;
-    left: -30px;
-    width: 300px;
-    transform: rotate(70deg);
-  }
-  #arrow-54{
-    position: absolute;
-    top: 230px;
-    left: 260px;
-    z-index: 0;
-    width: 200px;
-    transform: rotate(70deg);
-  }
-  #arrow-88{
-    position: absolute;
-    top: 85px;
-    left: 330px;
-    z-index: 0;
-    width: 200px;
-    transform: rotate(60deg);
-  }
-  #arrow-37{
-    position: absolute;
-    top: 330px;
-    left: 130px;
-    z-index: 0;
-    width: 155px;
-    transform: rotate(70deg);
-  }
-  #arrow-45{
-    position: absolute;
-    top: 190px;
-    left: 165px;
- 
-    width: 185px;
-    transform: rotate(-70deg);
-  }
-  #arrow-23{
-    position: absolute;
-    top: 290px;
-    left: 165px;
- 
-    width: 185px;
-    transform: rotate(-70deg);
-  }
-  #arrow-9{
-    position: absolute;
-    top: 190px;
-    left: 165px;
- 
-    width: 185px;
-    transform: rotate(-70deg);
-  }
-  #vaccine{
-    width: 90px;
-    position: absolute;
-    left: 1px;
-  } */
 
   .none{
     display: none;
@@ -316,7 +207,7 @@ body > div.player-4{
     font-size: 25px;
     box-sizing: border-box;
     position: absolute;
-    top: -295px;
+    top: 150px;
     left: 550px;
   }
   .lboard th{
