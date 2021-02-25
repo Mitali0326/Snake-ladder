@@ -1039,7 +1039,7 @@ function roll1(){
       player1.style.position = "absolute"
       player1.style.left = positionx1 + 'px'; 
       player1.style.top = positiony1 + 'px'; 
-      if(two = 1){
+      if(two == 1){
         document.getElementById("roll-2").disabled = false;
         document.getElementById("roll-1").disabled = true;
         
