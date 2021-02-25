@@ -183,15 +183,7 @@ body > div.player-4{
   height: 165px;
     z-index: 5;
   }
-  /* #covid-1{
-   position: absolute;
-   top: -110px;
-   left: 55px;
-   z-index: 5;
-
-    
-  }
-
+ 
 
   .none{
     display: none;
@@ -214,7 +206,7 @@ body > div.player-4{
     padding: 20px 15px;
     text-align: left;
     font-weight: 500;
-    font-size: 25pxpx;
+    font-size: 25px;
     color: #fff;
     text-transform: uppercase;
   }
