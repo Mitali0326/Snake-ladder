@@ -1,16 +1,17 @@
 var number = 0;
 while(1){
-
+ 
+ //taking number of player from prompt
  number= prompt("Enter number of players");
-if(number==1 || number==2 || number==3 || number==4){
+if(number<=4 && !(number<0)){
   break;
-
 }
 else{
-  alert("Number of player can be only b/w 1-4 plz enter a valid number")
+  alert("Number of player can be only b/w 1-4 \nplz enter a valid number")
 }
 }
 
+//Canvas to make Board
 const canvas=document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 canvas.width=500;
@@ -18,7 +19,7 @@ canvas.height=500;
 var x=0,y=0,i=0,j=1,count=0,one=1,two=1,three=1,four=1,win=0;
 
 
-
+//Ploting Board
  for(y=450;y>=0 ; y-=50){
   if(i%2==0){
     for(x=0; x<=450;x+=50){
@@ -63,10 +64,13 @@ var x=0,y=0,i=0,j=1,count=0,one=1,two=1,three=1,four=1,win=0;
 i++; 
 }
 
+//disabling all player except first
 document.getElementById("roll-1").disabled = false;
 document.getElementById("roll-2").disabled = true;
 document.getElementById("roll-3").disabled = true;
 document.getElementById("roll-4").disabled = true;
+
+
 
 if(number==4){
   document.getElementById("canvas").classList.remove("none");
@@ -2182,20 +2186,5 @@ function roll1(){
 
 }
 function leaderboard(rank , player){
-if(rank==1){
-  document.getElementById("name1").innerHTML=player;
-
-}
-else if(rank==2){
-  document.getElementById("name2").innerHTML=player;
-
-}
-else if(rank==3){
-  document.getElementById("name3").innerHTML=player;
-
-}
-else if(rank==4){
-  document.getElementById("name4").innerHTML=player;
-
-}
+  document.getElementById("name"+rank).innerHTML=player;
 }
